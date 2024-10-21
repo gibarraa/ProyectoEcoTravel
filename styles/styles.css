@@ -1,0 +1,341 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #DAD7CD;
+    height: 100vh;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 1.1rem;
+}
+
+.nav-item:hover {
+    background-color: #2e4238;
+    border-radius: 20%;
+}
+
+.navbar .d-flex {
+    margin-left: auto;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.hero {
+    background-color: #DAD7CD;
+    color: #333;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-section {
+    background-color: #DAD7CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.contact-card {
+    background-color: #b0c29c;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.contact-card h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form-label i {
+    margin-right: 5px;
+}
+
+.form-control {
+    background-color: #DAD7CD;
+    border: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #A3B18A;
+    border-color: #A3B18A;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+
+.main-section {
+    background-color: #DAD7CD;
+    color: #333;
+}
+
+.display-4 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.lead {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #344E41;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.btn-success {
+    background-color: #A3B18A;
+    border-color: #A3B18A;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.custom-navbar {
+    background-color: #344E41;
+}
+
+.custom-navbar .navbar-brand, 
+.custom-navbar .nav-link {
+    color: #DAD7CD; /* Color del texto */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #c6fa9b; /* Color del texto al pasar el mouse */
+}
+
+.centrarContenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-galeria {
+    height: 25vh;
+    transition: transform 0.3s ease-in-out; 
+    transform-origin: center; 
+}
+
+.img-galeria:hover {
+    transform: scale(1.1); 
+}
+
+
+.titulo{
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.reserve-section {
+    background-color: #DAD7CD;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.reserve-card {
+    background-color: #b0c29c;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 950px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.label-text {
+    font-size: 1.2rem;
+    color: #000;
+    white-space: nowrap; /* Prevents wrapping of the text */
+}
+
+hr {
+    margin-top: 0; /* Remove margin above the <hr> */
+    margin-bottom: 0;
+}
+
+.row.align-items-center {
+    margin-top: 0; /* Remove margin above the row */
+    margin-bottom: 0; /* Remove margin below the row */
+    padding-top: 1vh; /* Remove padding above the row */
+    padding-bottom: 1vh; /* Remove padding below the row */
+}
+
+.row.align-items-center img {
+    max-width: 100%;
+    height: auto;
+}
+
+.row.align-items-center text {
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.row.align-items-center .btn {
+    font-size: 1.2rem;
+}
+
+/* Icon section styles */
+.icon-section {
+    background-color: #DAD7CD; /* Match the background color of the reserve section */
+    padding: 0px; /* Adds padding around the section */
+}
+
+.icon-label {
+    display: block;
+    margin-top: 5px; /* Adds space between the icon and text */
+    font-size: 14px;
+    color: #000; /* Adjust text color if needed */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    background-color: transparent; /* Remove background from individual rows */
+    padding: 0; /* Ensure there is no extra padding */
+}
+.map-container img {
+    border-radius: 20px; 
+  }
+  .texto-con-fondo {
+    display: inline-block; 
+    background-color: #e0e0e0; 
+    padding: 10px; 
+    border-radius: 5px; 
+  }
+  .img-fluid {
+    border-radius: 10px; 
+  }
+
+  .card-body{
+    background-color: #588157;
+    color: #DAD7CD;
+
+}
+.card {
+    border-radius: 15px; 
+    overflow: hidden; 
+}
+
+footer{
+    padding-top: 10%;
+}
+.packages-section {
+    padding: 50px 0;
+}
+
+
+
+
+
+.package-card h5 {
+    font-size: 1.5rem;
+    color: #DAD7CD;
+}
+
+/* Estilo de los botones para que se vean como enlaces */
+.btn-link {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0;
+}
+
+.btn-link:hover {
+    background-color: #2e4238;
+    border-radius: 20%;
+}
+
+.btn-link:focus {
+    outline: none;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+/* Estilo para el botón que reemplaza a navbar-brand */
+.btn-brand {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.btn-brand img {
+    width: 30%;
+}
+
+.btn-brand:focus {
+    outline: none;
+}
+
+.btn-brand:hover {
+    text-decoration: none;
+}
+
+
